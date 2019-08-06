@@ -1,6 +1,4 @@
-make-sth-happen
-
-> make sth. happen
+# make-sth-happen
 
 ## Setup
 
