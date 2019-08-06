@@ -1,0 +1,11 @@
+{
+  "name": "happen",
+  "version": "1.0.0",
+  "description": "make-sth-happen",
+  "bin": {
+    "happen": "./happen.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
