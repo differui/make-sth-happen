@@ -1,6 +1,7 @@
 #!/bin/bash
-mkdir -p $1
 
+# create folders
+mkdir -p $1
 mkdir -p $1/src
 
 # create templates
@@ -45,7 +46,7 @@ echo "$TSCONFIG" > $1/tsconfig.json
 
 echo "MAKE $1 HAPPEN!"
 
-# start serve
+# make it happen
 cd $1
 npm init -y > /dev/null
 code ./
