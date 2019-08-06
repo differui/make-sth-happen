@@ -13,5 +13,5 @@ npm install -g make-sth-happen
 ## Usage
 
 ```bash
-happen -h
+happen your-project-name-here
 ```
