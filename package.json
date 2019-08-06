@@ -5,7 +5,9 @@
   "bin": {
     "happen": "./happen.sh"
   },
-  "keywords": [],
-  "author": "",
+  "files": [
+    "happen.sh"
+  ],
+  "author": "BinRui Guan <differui@gmail.com>",
   "license": "MIT"
 }
