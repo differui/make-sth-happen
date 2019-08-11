@@ -19,9 +19,15 @@ INDEX_HTML='<!DOCTYPE html>
     <script src="./src/index.ts"></script>
   </body>
 </html>'
-EDITORCONFIG='[*.{js,tx,tsx,html,css,sass,scss,less,styl}]
-  indent_style = space
-  indent_size = 2'
+EDITORCONFIG='root= true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,tx,tsx,html,css,sass,scss,less,styl}]
+indent_style = space
+indent_size = 2'
 PRETTIERRC='{
   "trailingComma": "es5",
   "tabWidth": 2,
