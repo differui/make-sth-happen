@@ -6,6 +6,8 @@ mkdir -p $1/src
 
 # create templates
 INDEX_TS="console.log('App is ruuning...')"
+MODULE_DTS="// declarations for external modules"
+GLOBAL_DTS="// declarations for global variables"
 INDEX_HTML='<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,11 +42,13 @@ TSCONFIG='{
     "esModuleInterop": true,
     "noImplicitAny": true
   },
-  "include": ["src/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }'
 
 # create files
 echo "$INDEX_TS" > $1/src/index.ts
+echo "$MODULE_DTS" > $1/src/module.d.ts
+echo "$GLOBAL_DTS" > $1/src/global.d.ts
 echo "$INDEX_HTML" > $1/index.html
 echo "$PRETTIERRC" > $1/.prettierrc
 echo "$EDITORCONFIG" > $1/.editorconfig
