@@ -44,6 +44,7 @@ TSCONFIG='{
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }'
+GITIGNORE = 'dist/'
 
 # create files
 echo "$INDEX_TS" > $1/src/index.ts
@@ -52,6 +53,7 @@ echo "$GLOBAL_DTS" > $1/src/global.d.ts
 echo "$INDEX_HTML" > $1/index.html
 echo "$PRETTIERRC" > $1/.prettierrc
 echo "$EDITORCONFIG" > $1/.editorconfig
+echo "$GITIGNORE" > $1/.gitignore
 echo "$TSCONFIG" > $1/tsconfig.json
 
 echo "MAKE $1 HAPPEN!"
