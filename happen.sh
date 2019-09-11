@@ -21,7 +21,7 @@ INDEX_HTML='<!DOCTYPE html>
     <script src="./src/index.ts"></script>
   </body>
 </html>'
-EDITORCONFIG='root= true
+EDITORCONFIG='root = true
 
 [*]
 end_of_line = lf
@@ -44,7 +44,7 @@ TSCONFIG='{
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }'
-GITIGNORE = 'dist/'
+GITIGNORE = "dist/"
 
 # create files
 echo "$INDEX_TS" > $1/src/index.ts
