@@ -44,9 +44,8 @@ TSCONFIG='{
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }'
-GITIGNORE = 'build/
-dist/'
-LICENSE = 'The MIT License (MIT)
+GITIGNORE='dist/'
+LICENSE='The MIT License (MIT)
 
 Copyright (c) 2016 Thomas Ghysels
 
